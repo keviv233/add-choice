@@ -1,0 +1,63 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70, 92, 255);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+p {
+    font-size: 90%;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+input {
+    width: 400px;
+    height: 100px;
+}
+
+textarea::placeholder {
+    font-size: 110%;
+}
+
+textarea {
+    font-size: 90%;
+    outline: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+}
+
+span.btn {
+    padding: 7px 16px;
+    background-color: rgb(255, 119, 0);
+    border-radius: 50px;
+    font-size: 90%;
+    display: inline;
+    justify-self: flex-start;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+}
+
+.effect {
+    background-color: black !important;
+    /* border: 2px solid white !important; */
+}
